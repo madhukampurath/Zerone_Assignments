@@ -39,18 +39,25 @@ td.table-cell {
 
 td.table-cell-green {
     background-color: rgb(140, 195, 216);
+    padding: 20px;
 }
 
 td.table-cell-pink {
     background-color: rgba(223, 189, 193, 0.993);
+    padding: 20px;
 }
 
 td.table-cell-gray {
     background-color: rgba(134, 161, 145, 0.884);
+    padding: 20px;
 }
 table{
     width: 100%;
 }
 table.block1{
     margin: 60px;
+}
+a.highlight:hover{
+color: #ff0000;
+font-size: 22px;
 }
