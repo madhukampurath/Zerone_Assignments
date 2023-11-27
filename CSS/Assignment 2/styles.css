@@ -16,9 +16,13 @@ h1{
 h2{
     text-align: center;
 }
+h4{
+    text-align: center;
+}
 
 div.head {
     height: 100px;
+    width: 100%;
     background: linear-gradient(to right, #ff3399 10%, #c2c2c27a 40%);
     color: #387069;
     text-align: center;
@@ -47,6 +51,6 @@ td.table-cell-gray {
 table{
     width: 100%;
 }
-tr.width{
-    width: 100%;
+table.block1{
+    margin: 60px;
 }
