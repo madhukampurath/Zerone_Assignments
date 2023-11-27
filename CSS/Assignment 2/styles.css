@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(247, 195, 229);
+}
 td{
     vertical-align: top;
 }
@@ -9,7 +12,7 @@ ul{
 }
 
 h1{
-    color: pink ;
+    color: rgba(240, 3, 3, 0.486) ;
     text-align: center;
     scale: 1 100%;
 }
