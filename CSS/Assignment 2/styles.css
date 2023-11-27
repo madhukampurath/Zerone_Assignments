@@ -1,6 +1,9 @@
 td{
     vertical-align: top;
 }
+td.h1{
+    width: 80%;
+}
 ul{
     list-style-type: disc;
 }
@@ -42,5 +45,8 @@ td.table-cell-gray {
     background-color: rgba(134, 161, 145, 0.884);
 }
 table{
+    width: 100%;
+}
+tr.width{
     width: 100%;
 }
