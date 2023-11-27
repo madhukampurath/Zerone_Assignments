@@ -16,6 +16,7 @@
             font-size: xx-large;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-weight: 100;
+            word-wrap: break-word;
         }
     </style>
 </head>
@@ -25,7 +26,7 @@
         <tr>
             <td style="width: 20%;">Logo</td>
             <td style="width: 80%;">
-                <h1>The Dental Hygine Department</h1>
+                <h1 style="scale: 1 100%;">The Dental Hygine Department</h1>
             </td>
         </tr>
     </table>
@@ -44,7 +45,7 @@
     </div>
     <table>
         <tr>
-            <td style="width: 25%; background-color: cadetblue;">
+            <td style="width: 33%; background-color: cadetblue;">
                 <table>
                     <tr>
                         <td>
@@ -59,7 +60,7 @@
                         </td>
                     </tr>
                 </table>
-            <td>
+            <td style="width: 33; background-color: aqua;">
                 <table>
                     <tr>
                         <td>
@@ -69,14 +70,17 @@
                             </p>
 
                             <form action="">
-                                <label for="" class="form-label">First name of Dentist:</label><input type="text" name="f_name" placeholder="First Name"/><br/>
-                                <label for="" class="form-label">Last Name:</label><input type="text" name="l_name" placeholder="Last Name"/><br/>
-                                <label for="" class="form-label">Location:</label><input type="text" name="f_name" placeholder="Location"/><br/>
-                                <label for="" class="form-label">What type of doctor are you looking for?</label>
-                                <input type="checkbox">
-                                
+                                <label for="" class="form-label">First name of Dentist:</label><br><input type="text"
+                                    name="f_name" placeholder="First Name" /><br />
+                                <label for="" class="form-label">Last Name:</label><br><input type="text" name="l_name"
+                                    placeholder="Last Name" /><br />
+                                <label for="" class="form-label">Location:</label><br><input type="text" name="f_name"
+                                    placeholder="Location" /><br />
+                                <label for="" class="form-label">What type of doctor are you looking for?</label><br>
+                                <input type="checkbox"><label for="" class="form-label">Orthodonist</label><br>
+                                <input type="checkbox"><label for="" class="form-label">General Dental
+                                    Practotioner</label>
                             </form>
-                            
                         </td>
                     </tr>
                 </table>
