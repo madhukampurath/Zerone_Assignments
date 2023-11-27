@@ -7,17 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Dental hygine Department</title>
     <style>
-        div {
+        div.head {
             height: 100px;
             background: linear-gradient(to right, #ff3399 10%, #c2c2c27a 40%);
             color: #387069;
-            padding: 5px;
             text-align: center;
             font-size: xx-large;
+            overflow: hidden;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            font-weight: 100;
-            word-wrap: break-word;
         }
+
     </style>
 </head>
 
@@ -40,57 +39,75 @@
             <td><a href>Glossary</a></td>
         </tr>
     </table>
-    <div>
-        <h3>Only 46% of households buy toothbrushes</h3>
+    <div class="head">
+        <h2>Only 46% of households buy toothbrushes</h2>
     </div>
-    <table>
-        <tr>
-            <td style="width: 33%; background-color: cadetblue;">
-                <table>
-                    <tr>
-                        <td>
-                            <h5>News & Events</h5>
-                            <h6> Click to find out more!</h6>
-                            <ul style="list-style-type: disc;">
-                                <li>Irish Academy Of Aesthrtic</li>
-                                <li>Irish dentists report on eating disordes
-                                <li>IDA annual conference 2014</li>
-                                <li>Material aliva predicts dental</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
-            <td style="width: 33; background-color: aqua;">
-                <table>
-                    <tr>
-                        <td>
-                            <h6>Find a Dentist</h6>
-                            <p> looking for a dentist in your area? Enter any details
-                                below and search fot dentist near you!
-                            </p>
+    <hr>
+        <table>
+            <tr>
+                
+                <td style="width: 33%; background-color: rgb(140, 195, 216); border-radius: 15px; vertical-align: top;">
+                    <table>
+                        <tr>
+                            <td>
+                                <h2 style="vertical-align: top;">News & Events</h2>
+                                <h6> Click to find out more!</h6>
+                                <ul style="list-style-type: disc;">
+                                    <li>Irish Academy Of Aesthrtic</li>
+                                    <li>Irish dentists report on eating disordes
+                                    <li>IDA annual conference 2014</li>
+                                    <li>Material aliva predicts dental</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                <td style="width: 33; background-color: rgba(223, 189, 193, 0.993);border-radius: 15px; vertical-align: top;">
+                    <table>
+                        <tr>
+                            <td>
+                                <h2>Find a Dentist</h2>
+                                <p> looking for a dentist in your area? Enter any details
+                                    below and search fot dentist near you!
+                                </p>
 
-                            <form action="">
-                                <label for="" class="form-label">First name of Dentist:</label><br><input type="text"
-                                    name="f_name" placeholder="First Name" /><br />
-                                <label for="" class="form-label">Last Name:</label><br><input type="text" name="l_name"
-                                    placeholder="Last Name" /><br />
-                                <label for="" class="form-label">Location:</label><br><input type="text" name="f_name"
-                                    placeholder="Location" /><br />
-                                <label for="" class="form-label">What type of doctor are you looking for?</label><br>
-                                <input type="checkbox"><label for="" class="form-label">Orthodonist</label><br>
-                                <input type="checkbox"><label for="" class="form-label">General Dental
-                                    Practotioner</label>
-                            </form>
-                        </td>
-                    </tr>
-                </table>
-
-            </td>
+                                <form action="">
+                                    <label for="" class="form-label">First name of Dentist:</label><br><input
+                                        type="text" name="f_name" placeholder="First Name" /><br />
+                                    <label for="" class="form-label">Last Name:</label><br><input type="text"
+                                        name="l_name" placeholder="Last Name" /><br />
+                                    <label for="" class="form-label">Location:</label><br><input type="text"
+                                        name="f_name" placeholder="Location" /><br />
+                                    <label for="" class="form-label">What type of doctor are you looking
+                                        for?</label><br>
+                                    <input type="checkbox"><label for="" class="form-label">Orthodonist</label><br>
+                                    <input type="checkbox"><label for="" class="form-label">General Dental
+                                        Practotioner</label>
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="background-color: rgba(134, 161, 145, 0.884);border-radius: 15px;vertical-align: top;">
+                    <table>
+                        <tr>
+                            <td>
+                                <h2>Quick tips</h2>
+                                <ul style="list-style-type: disc;">
+                                    <li>Change your toothbrush every 5 months</li>
+                                    <li>Clean your tongue as well as your teeth</li>
+                                    <li>Floss everyday</li>
+                                    <li>See your dentist very 6 months.</li>
+                                    <li>Cut down how often you have sweet drinks and foods</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        </td>
         </tr>
-    </table>
-    </td>
-    </tr>
-    </table>
+        </table>
 </body>
 
 </html>
