@@ -1,0 +1,46 @@
+td{
+    vertical-align: top;
+}
+ul{
+    list-style-type: disc;
+}
+
+h1{
+    color: pink ;
+    text-align: center;
+    scale: 1 100%;
+}
+h2{
+    text-align: center;
+}
+
+div.head {
+    height: 100px;
+    background: linear-gradient(to right, #ff3399 10%, #c2c2c27a 40%);
+    color: #387069;
+    text-align: center;
+    font-size: xx-large;
+    overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+td.table-cell {
+    width: 33%;
+    border-radius: 15px;
+    vertical-align: top;
+}
+
+td.table-cell-green {
+    background-color: rgb(140, 195, 216);
+}
+
+td.table-cell-pink {
+    background-color: rgba(223, 189, 193, 0.993);
+}
+
+td.table-cell-gray {
+    background-color: rgba(134, 161, 145, 0.884);
+}
+table{
+    width: 100%;
+}
