@@ -10,9 +10,6 @@ td.h1 {
     width: 80%;
 }
 
-ul {
-    list-style-type: disc;
-}
 
 h1 {
     color: rgba(240, 3, 3, 0.486);
@@ -65,6 +62,9 @@ td.table-cell-3 {
 
 table {
     width: 100%;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 table.block1 {
@@ -76,6 +76,13 @@ a.highlight:hover {
     font-size: 22px;
 }
 
-checkbox{
+ul.checkbox{
     list-style-type:none;
 }
+ ul.table-cell-1{
+    list-style-type: disc;
+ }
+
+ .logo{
+    width: 20%;
+ }
