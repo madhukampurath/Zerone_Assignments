@@ -75,3 +75,7 @@ a.highlight:hover {
     color: #ff0000;
     font-size: 22px;
 }
+
+checkbox{
+    list-style-type:none;
+}
