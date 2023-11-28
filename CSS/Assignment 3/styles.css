@@ -1,0 +1,47 @@
+.logo {
+    border-top: 4px solid #648880;
+    float: left;
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    line-height: 44px;
+    padding: 40px 0 350px 0;
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: white;
+    margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.head {
+    margin: 66px 0 22px 0;
+    text-align: right;
+  }
+  
+
+
+table.pagestart {
+    width: 100%;
+    background-color: #293f50;
+    height: 500px;
+}
+
+h1.highlight:hover {
+    color: #00a37a;
+}
+
+
+.main-nav {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+
+.nav {
+    text-align: right;
+}
+.primary-header a,
+.primary-footer a {
+  color: #fff;
+}
