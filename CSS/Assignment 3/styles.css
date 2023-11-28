@@ -8,40 +8,87 @@
     padding: 40px 0 350px 0;
     padding-left: 50px;
     text-transform: uppercase;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-right: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-top: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.head {
-    margin: 66px 0 22px 0;
-    text-align: right;
-  }
-  
-
-
-table.pagestart {
-    width: 100%;
-    background-color: #293f50;
+.head{
+    background-color: #c46161;
     height: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.nav{
+    text-align: right;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
 }
 
-h1.highlight:hover {
-    color: #00a37a;
+.nav li:last-child {
+  margin-right: 0;
 }
 
-
-.main-nav {
+.main-navbar {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: .5px;
     text-transform: uppercase;
+  }
+  
+  .primary-header a:hover{
+    color: #648880;
+  }
+
+  .group {
+    clear: both;
+    *zoom: 1;
+  }
+
+  .group:before,
+.group:after {
+  content: "";
+  display: table;
 }
 
-.nav {
+.header-sentence {
+    margin: 80px 0 22px 0;
     text-align: right;
-}
-.primary-header a,
-.primary-footer a {
-  color: #fff;
-}
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .header-paragraph {
+    color: #000000;
+    line-height: 44px;
+    padding: 20px 80px 100px 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .controller{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .btn {
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  
+  .btn-alt {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+  }
