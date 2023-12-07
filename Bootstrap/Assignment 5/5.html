@@ -2,38 +2,137 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>Assignment 5</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Information</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+  <!-- Add Bootstrap JavaScript dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <div class="row">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <div class="row bg-primary">
-                <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-                    <h6>support@novena.com</h6>
-                </div>
-                <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-                    <h6>Address Ta-134/A, New York,USA</h6>
-                </div>
-                <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 text-right">
-                    <h6>Call Now:823-4565-13456</h6>
-                </div>
-
-            </div>
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <div class="row bg-primary text-white">
+        <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+          <div class="d-flex  py-2 my-2  justify-content-end">
+            <i class="fas fa-envelope"></i>
+            <h6 class="ml-2">support@novena.com</h6>
+          </div>
         </div>
+        <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+          <div class="d-flex  py-2 my-2 ">
+            <i class="fas fa-map-marker-alt"></i>
+            <h6 class="ml-2">Address Ta-134/A, New York,USA</h6>
+          </div>
+        </div>
+        <div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 text-right">
+          <div class="d-flex justify-content-end">
+            <h6 class="mr-4 py-2 my-2">Call Now:823-4565-13456</h6>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+          <img src="logo.png" alt="logo" style="width:150px;">
+        </div>
+        <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="justify-content-end collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Department
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">D1</a></li>
+                      <li><a class="dropdown-item" href="#">D2</a></li>
+                      <li><a class="dropdown-item" href="#">D3</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="true">
+                      Doctors
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">DOC1</a></li>
+                      <li><a class="dropdown-item" href="#">DOC2</a></li>
+                      <li><a class="dropdown-item" href="#">DOC3</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Blog
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">B1</a></li>
+                      <li><a class="dropdown-item" href="#">B2</a></li>
+                      <li><a class="dropdown-item" href="#">B3</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="row bg-image-container"
+            style="background-image: url('slider-bg-1.jpg'); background-size: cover; background-position: center; height: 400px;">
+            <div class="col-12 text-left text-black text-left"><br>
+              <p class="small">TOTAL HEALTH CARE SOLUTION </p>
+              <h2>Your Most Trusted <br>Health Partner</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Iste sint quos accusamus
+                saepe reiciendis fugit voluptates nisi possimus ipsa aperiam.</p>
+              <button class="btn btn-primary">Make Appointment</button>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col col-sm col-md col-lg col-xl">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-sm col-md col-lg col-xl"></div>
+              <div class="col col-sm col-md col-lg col-xl"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
+  </div>
 </body>
 
 </html>
